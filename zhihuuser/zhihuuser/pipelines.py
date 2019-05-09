@@ -21,7 +21,7 @@ class MysqlPipeline(object):
                 return 1
             else:
                 return 0
-        self.conn= pymysql.connect(host='localhost',user='root',password='8911980',port=3306,db='test')
+        self.conn= pymysql.connect(host='localhost',user='root',password='****',port=3306,db='test')
         self.cursor = self.conn.cursor()
         table_name = 'zhihu'
         if (table_exists(self.cursor, table_name) != 1):
