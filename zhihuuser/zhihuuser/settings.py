@@ -93,6 +93,6 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 mysql_url='localhost'
 mysql_user='root'
-mysql_password='8911980'
+mysql_password='*****'
 mysql_port='3306'
 mysql_db='test'
